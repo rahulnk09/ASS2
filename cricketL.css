@@ -1,0 +1,122 @@
+body {
+    background: linear-gradient(rgba(21, 231, 231, 0.7), rgba(4, 255, 221, 0.7));
+    --primary-color: rgb(168, 227, 230);
+    --secondary-color: red;
+    background-size: cover;
+}
+.header h1 {
+    text-align: center;
+    color: rgb(11, 56, 25);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+}
+.container-holder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.singleContainer1 {
+    /* padding-top: 50px; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    border: 2px solid white;
+    background: linear-gradient(rgba(121, 124, 124, 0.3), rgba(74, 4, 236, 0.514));
+    text-align: center;
+}
+.singleContainer {
+    /* padding-top: 50px; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    border: 2px solid white;
+    background-color: var(--primary-color);
+    background: linear-gradient(rgba(121, 124, 124, 0.3), rgba(74, 4, 236, 0.514));
+    text-align: center;
+}
+.singleContainer1 h1 {
+    color: black;
+    text-align: center;
+    opacity: 1;
+    font-size: 50px;
+    
+}
+.singleContainer h1 {
+    color: black;
+    text-align: center;
+    opacity: 1;
+    font-size: 50px;
+}
+.singleContainer1 p, .singleContainer p {
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+form {
+    width: 640px;
+    /* height: 1920px; */
+    text-align: left;
+    /* opacity: 0.5; */
+}
+h2 {
+    text-align: center;
+
+    padding-left: 0px;
+}
+.container-holder a {
+    width: 100px;
+    height: 40px;
+    background-color: var(--secondary-color);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.container-holder a:hover {
+    width: 100px;
+    height: 40px;
+    background-color: var(--secondary-color);
+    color: white;
+}
+button {
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-bottom: 20px;
+}
+.playerBox {
+    /* margin-left: 80px; */
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background: linear-gradient(rgba(76, 28, 167, 0.4), rgba(194, 29, 29, 0.4));
+    border: 5px solid white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

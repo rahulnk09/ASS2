@@ -1,0 +1,106 @@
+body {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("sports.jpg") repeat-x ;
+    --primary-color: rgb(168, 227, 230);
+    --secondary-color:red;
+}
+.header {
+    padding-top: 50px;
+    align-items: center;
+}
+.header h1 {
+    color: rgb(200, 236, 195);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+}
+.container-holder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.singleContainer1 {
+    padding-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    border: 2px solid white;
+    background-color: var(--primary-color);
+    text-align: center;
+    padding-top: 50px;
+}
+.singleContainer {
+    padding-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    border: 2px solid white;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+.singleContainer1 h1 {
+    color: black;
+    text-align: center;
+    opacity: 1;
+}
+.singleContainer h1 {
+    color: black;
+    text-align: center;
+    opacity: 1;
+}
+.singleContainer1 p, .singleContainer p {
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+form {
+    width: 400px;
+    height: 250px;
+    /* opacity: 0.5; */
+}
+.container-holder a {
+    width: 100px;
+    height: 40px;
+    background-color: var(--secondary-color);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.container-holder a:hover {
+    width: 100px;
+    height: 40px;
+    background-color: var(--secondary-color);
+    color: white;
+}
+.buttons {
+    align-items: flex-end;
+}
